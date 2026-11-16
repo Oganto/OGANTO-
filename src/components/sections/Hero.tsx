@@ -71,7 +71,7 @@ export default function Hero() {
             className="inline-flex items-center rounded-full border border-border px-3.5 py-2 mb-8"
           >
             <span className="text-[13px] font-medium text-muted">
-              Available for select projects
+              {identity.availability}
             </span>
           </div>
 
@@ -123,6 +123,15 @@ export default function Hero() {
               className="inline-flex items-center rounded-full border border-border-strong hover:border-muted transition-colors px-7 py-4 text-[15px] font-semibold text-text"
             >
               Let&apos;s Work Together
+            </a>
+            <a
+              data-hero-cta
+              href={identity.cvPath}
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-border-strong hover:border-muted transition-colors px-7 py-4 text-[15px] font-semibold text-text"
+            >
+              Download CV
+              <span aria-hidden>↓</span>
             </a>
           </div>
         </div>

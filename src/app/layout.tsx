@@ -12,8 +12,24 @@ import SmoothScroll from "@/components/SmoothScroll";
 import { identity } from "@/lib/site-data";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://oganto.vercel.app"),
   title: `${identity.realName} — ${identity.brandName} | Full-Stack & AI Developer`,
   description: identity.intro,
+  openGraph: {
+    title: `${identity.realName} — ${identity.brandName}`,
+    description: identity.intro,
+    url: "https://oganto.vercel.app",
+    siteName: identity.brandName,
+    images: [{ url: identity.heroPhoto, width: 1200, height: 1500 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${identity.realName} — ${identity.brandName}`,
+    description: identity.intro,
+    images: [identity.heroPhoto],
+    creator: "@oganto_",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
