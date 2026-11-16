@@ -13,8 +13,8 @@ export default function Contact() {
             Let&apos;s build it.
           </h2>
           <p className="text-muted text-lg max-w-md mx-auto mb-10">
-            Open to select projects and collaborations — reach out and
-            let&apos;s talk about what you&apos;re building.
+            Open to remote roles, contract work and collaborations — tell me
+            what you&apos;re building and I&apos;ll tell you how I&apos;d approach it.
           </p>
 
           <a
@@ -25,6 +25,14 @@ export default function Contact() {
           </a>
 
           <div className="flex items-center justify-center gap-6">
+            <a
+              href="/Oginni-Isreal-CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-muted hover:text-text transition-colors"
+            >
+              CV
+            </a>
             <a
               href={contact.twitter}
               target="_blank"

@@ -14,13 +14,14 @@ export const identity = {
     "I build modern digital products and AI-powered solutions — from full-stack web platforms to intelligent, LLM-driven tools that solve real problems.",
   heroPhoto: "/images/oginni-hero.jpg",
   avatar: "/images/oganto-avatar.jpg",
+  cvPath: "/Oginni-Isreal-CV.pdf",
+  availability: "Open to remote roles and contract work",
 };
 
 export const contact = {
   email: "tomilolaisraeloginni@gmail.com",
   twitter: "https://x.com/oganto_",
-  // TODO: add GitHub and LinkedIn URLs when ready
-  github: null as string | null,
+  github: "https://github.com/Oganto" as string | null,
   linkedin: "https://www.linkedin.com/in/israel-oginni-206071433",
 };
 
@@ -47,16 +48,31 @@ export const whatIDo = [
   },
 ];
 
-// TODO: confirm this list — only keep what you actually use, add anything missing
 export const skills = {
-  frontend: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
-  backend: ["Node.js", "APIs", "Databases", "Authentication"],
+  frontend: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+  ],
+  backend: [
+    "Node.js",
+    "APIs",
+    "Databases",
+    "Supabase",
+    "Firebase",
+    "Authentication",
+  ],
   ai: [
     "LLM APIs",
     "Prompt Engineering",
     "AI Application Development",
     "AI Workflows",
     "RAG & AI Integrations",
+    "AI-Assisted Development",
   ],
 };
 
