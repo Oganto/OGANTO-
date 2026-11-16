@@ -101,7 +101,7 @@ export const projects: Project[] = [
       "Trending course searches",
       "Campus blog and recent uploads feed",
     ],
-    liveUrl: "https://bro-media-hub.vercel.app",
+    liveUrl: null, // deployment is currently down (DEPLOYMENT_NOT_FOUND on vercel)
     githubUrl: "https://github.com/Oganto/bro-media-hub",
   },
 ];
